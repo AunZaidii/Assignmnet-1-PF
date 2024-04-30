@@ -1,0 +1,11 @@
+list = [10, 7, 4, 9, 5, 18, 2, 1, 8, 11, 12, 6, 3, 1, 11, 24]
+avg = sum(list)/len(list)
+list.pop(0)
+list.insert(0,avg)
+list.pop(7)
+list.insert(7,avg)
+list.pop(8)
+list.insert(8,avg)
+list.pop(12)
+list.insert(15,avg)
+print(list)
